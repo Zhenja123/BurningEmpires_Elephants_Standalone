@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="be_elephant_armor_kushan_tier_1" name=" Elephant Harness" mesh="be_elephant_armor_t1_b" culture="Culture.aserai" weight="90" appearance="1" Type="HorseHarness" is_merchandise="true" value="5000">
+	<ItemComponent>
+		<Armor body_armor="30" mane_cover_type="none" family_type="10" material_type="Leather"/>
+	</ItemComponent>
+	<Flags Civilian="true"/>
+</Item>
+  <Item id="be_elephant_armor_kushan_tier_2" name=" Elephant Iron Armor" mesh="be_elephant_armor_t2_b" culture="Culture.aserai" weight="160" appearance="1" Type="HorseHarness" is_merchandise="true" value="25000">
+	<ItemComponent>
+		<Armor body_armor="50" mane_cover_type="none" family_type="10" material_type="Plate"/>
+	</ItemComponent>
+	<Flags Civilian="true"/>
+</Item>
+  <Item id="be_elephant_armor_sassanid_tier_1" name=" Elephant Harness" mesh="be_elephant_armor_t1" culture="Culture.aserai" weight="90" appearance="1" Type="HorseHarness" is_merchandise="true" value="5000">
+	<ItemComponent>
+		<Armor body_armor="30" mane_cover_type="none" family_type="10" material_type="Leather"/>
+	</ItemComponent>
+	<Flags Civilian="true"/>
+</Item>
+  <Item id="be_elephant_armor_sassanid_tier_2" name=" Elephant Bronze Armor" mesh="be_elephant_armor_t2" culture="Culture.aserai" weight="160" appearance="1" Type="HorseHarness" is_merchandise="true" value="15000">
+	<ItemComponent>
+		<Armor body_armor="50" mane_cover_type="none" family_type="10" material_type="Plate"/>
+	</ItemComponent>
+	<Flags Civilian="true"/>
+</Item>
+  <Item id="be_elephant_armor_tier_3" name=" Elephant Royal Armor" mesh="be_elephant_armor_t3" culture="Culture.aserai" weight="200" appearance="1" Type="HorseHarness" is_merchandise="true" value="40000">
+	<ItemComponent>
+		<Armor body_armor="100" mane_cover_type="none" family_type="10" material_type="Plate"/>
+	</ItemComponent>
+	<Flags Civilian="true"/>
+</Item>
+  <Item id="elephant" name="Elephant" mesh="elephant_mesh" item_category="war_horse" is_merchandise="true" culture="Culture.aserai" value="75000" subtype="horse" weight="999" difficulty="100" Type="Horse">
+	<ItemComponent>
+		<Horse monster="Monster.elephant" maneuver="20" speed="20" charge_damage="400" body_length="100" is_mountable="true" extra_health="0">
+			<AdditionalMeshes>
+			</AdditionalMeshes>
+			<Materials>
+			</Materials>
+		</Horse>
+	</ItemComponent>
+	<Flags Civilian="true"/>
+</Item>
+</Items>

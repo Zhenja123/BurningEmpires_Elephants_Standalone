@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Burning Empires - Elephants (Standalone Runtime)" />
+  <Id value="BurningEmpires_Elephants" />
+  <Version value="v1.1.0" />
+  <SingleplayerModule />
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="StoryMode" />
+    <DependedModule Id="CustomBattle" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="Burning Empires Elephants Standalone Runtime" />
+      <DLLName value="BE_Elephants_Standalone_Runtime.dll" />
+      <SubModuleClassType value="BEElephantsStandalone.StandaloneSubModule" />
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+</Module>
